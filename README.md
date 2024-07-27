@@ -82,7 +82,7 @@ Make sure to create a `.env` file in the root directory based on the provided `.
 ## Author
 
 Felix Chinonso Emmanuel
-[feelchi1star@example.com](mailto:feelchi1star@example.com)
+[feelchi1star@gmail.com](mailto:feelchi1star@gmail.com)
 
 ---
 
