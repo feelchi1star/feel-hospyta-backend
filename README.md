@@ -8,6 +8,8 @@ This is a backend API built using NestJS and MongoDB for managing posts, comment
 
 [![Watch the video](https://img.youtube.com/vi/3Peh5Lla9_4/0.jpg)](https://www.youtube.com/watch?v=3Peh5Lla9_4)
 
+**API Documentation:** [View API Documentation](https://documenter.getpostman.com/view/21087341/2sA3kaBJwR)
+
 ## Features
 
 - **Post Management**
