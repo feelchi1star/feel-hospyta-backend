@@ -1,10 +1,12 @@
 # Hospyta Backend API
 
-[Watch the video for more details](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK_HERE)
-
 ## Overview
 
 This is a backend API built using NestJS and MongoDB for managing posts, comments, and votes. The API allows users to create, update, delete, and retrieve posts while also providing features for commenting and voting.
+
+**For a more detailed explanation, watch the video [here](https://www.youtube.com/watch?v=3Peh5Lla9_4).**
+
+[![Watch the video](https://img.youtube.com/vi/3Peh5Lla9_4/0.jpg)](https://www.youtube.com/watch?v=3Peh5Lla9_4)
 
 ## Features
 
