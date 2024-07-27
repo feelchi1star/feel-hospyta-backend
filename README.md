@@ -59,10 +59,10 @@ This is a backend API built using NestJS and MongoDB for managing posts, comment
 
 - **Upvote Post**
 
-  - `POST /posts/:postId/upvote`
+  - `POST /posts/:postId/vote`
 
 - **Downvote Post**
-  - `POST /posts/:postId/downvote`
+  - `POST /posts/:postId/vote`
 
 ## Environment Variables
 
