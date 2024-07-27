@@ -79,11 +79,31 @@ Make sure to create a `.env` file in the root directory based on the provided `.
 - **JWT**: For authentication and authorization.
 - **Class-validator**: For validating incoming requests.
 
+## Challenges Faced
+
+### 1. Circular Dependency Issues
+
+- **Challenge:** Encountered circular dependency issues between modules while implementing voting functionality.
+- **Solution:** Utilized `forwardRef()` in NestJS to resolve dependencies without breaking the module structure.
+
+### 2. Mongoose Virtual Fields
+
+- **Challenge:** Faced issues with setting up virtual fields for counting votes due to the way Mongoose handles references.
+- **Solution:** Defined virtual fields in the `Post` schema and ensured that they were populated correctly when querying posts.
+
+### 3. Error Handling
+
+- **Challenge:** Initially lacked comprehensive error handling in API endpoints, leading to uninformative responses.
+- **Solution:** Implemented custom error handling middleware and refined the responses to provide meaningful feedback to API consumers.
+
+### 4. TypeScript Integration
+
+- **Challenge:** Faced type-related errors when integrating TypeScript with Mongoose and Express, particularly with request objects.
+- **Solution:** Created custom interfaces and extended existing ones to accommodate additional properties, ensuring type safety.
+
 ## Author
 
 Felix Chinonso Emmanuel
 [feelchi1star@gmail.com](mailto:feelchi1star@gmail.com)
-
----
 
 Feel free to contact me for any additional details needed!
