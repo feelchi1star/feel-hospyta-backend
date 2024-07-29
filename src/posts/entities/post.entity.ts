@@ -12,7 +12,6 @@ export enum ECategory {
   LEG_PAIN = 'leg_pain',
   MALARIA = 'malaria',
 }
-
 export type PostDocument = Post & Document;
 
 @Schema({
